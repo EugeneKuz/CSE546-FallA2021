@@ -13,4 +13,6 @@ def open_encoding(filename):
 
 def face_recognition_handler(event, context):	
 	print("Hello")
+	data = open_encoding("encoding")
+	print(data)
 
